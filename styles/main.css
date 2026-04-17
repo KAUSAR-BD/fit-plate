@@ -165,10 +165,20 @@ body {
   padding: 40px;
   margin-top: 96px;
 }
-.footer h2{
+.footer h2 {
   margin-bottom: 20px;
 }
 
-.footer span{
+.footer span {
   color: #ff6a3d;
+}
+
+/* animation */
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.cards:hover{
+  transform: translateY(-5px);
 }
