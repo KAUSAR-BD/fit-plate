@@ -209,4 +209,15 @@ button:hover {
   .hero-img2 {
     width: 368px;
   }
+  .about {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-text p {
+    width: 100%;
+  }
+  .about-image img {
+    width: 230px;
+  }
 }
