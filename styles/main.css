@@ -88,7 +88,7 @@ body {
   line-height: 1.7;
   color: #555;
   margin-bottom: 48px;
-  width: 600px;
+  max-width: 600px;
 }
 .about-btn {
   padding: 12px 28px;
@@ -179,6 +179,34 @@ button:hover {
   transform: translateY(-2px);
 }
 
-.cards:hover{
+.cards:hover {
   transform: translateY(-5px);
+}
+
+/* responsive for mobile and tablet */
+
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .hero-img {
+    margin-top: 40px;
+  }
+
+  .hero-img1 {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero-img2 {
+    width: 368px;
+  }
 }
