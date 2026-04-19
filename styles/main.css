@@ -220,4 +220,11 @@ button:hover {
   .about-image img {
     width: 230px;
   }
+  .recipe-cards{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+  .recipe-description{
+    width: 90%;
+  }
 }
