@@ -183,7 +183,7 @@ button:hover {
   transform: translateY(-5px);
 }
 
-/* responsive for mobile and tablet */
+/* responsive for tablet */
 
 @media (max-width: 992px) {
   .hero {
@@ -226,5 +226,17 @@ button:hover {
   }
   .recipe-description{
     width: 90%;
+  }
+  .status{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* responsive for mobile */
+
+@media(max-width: 576px){
+  .hero{
+    padding: 40px 5%;
   }
 }
