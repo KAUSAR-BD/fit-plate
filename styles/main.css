@@ -260,4 +260,21 @@ button:hover {
   .recipe-cards{
     grid-template-columns: 1fr;
   }
+  .card img{
+    height: 180px;
+  }
+  .status{
+    padding: 20px;
+  }
+  .stat h2{
+    font-size: 24px;
+  }
+  .stat p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+  }
+  .footer{
+    padding: 30px 10px;
+  }
 }
