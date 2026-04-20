@@ -239,4 +239,25 @@ button:hover {
   .hero{
     padding: 40px 5%;
   }
+  .hero-text h1{
+    font-size: 2rem;
+  }
+  .hero-text p{
+    font-size: 14px;
+  }
+  .hero-btn{
+    padding: 10px 20px;
+  }
+  .about-text h2{
+    font-size: 1.8rem;
+  }
+  .about-text p{
+    font-size: 14px;
+  }
+  .recipe-title{
+    font-size: 1.8rem;
+  }
+  .recipe-cards{
+    grid-template-columns: 1fr;
+  }
 }
