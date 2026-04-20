@@ -265,6 +265,7 @@ button:hover {
   }
   .status{
     padding: 20px;
+    gap: 8px;
   }
   .stat h2{
     font-size: 24px;
